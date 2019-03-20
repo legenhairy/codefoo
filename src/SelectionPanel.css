@@ -1,8 +1,6 @@
 
-.btn-group {
-	width: 10vw;
+.button-panel {
+  display: flex;	
+  flex-direction: column;
 }
 
-.btn-group button {
-	display: block;
-}

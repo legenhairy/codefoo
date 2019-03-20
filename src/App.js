@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SelectionPanel from './SelectionPanel';
+import ContentView from './ContentView';
 
 class App extends Component {
   render() {
@@ -8,7 +9,7 @@ class App extends Component {
         <header className="title">Latest News</header>
         <hr></hr>
         <SelectionPanel></SelectionPanel>
-
+        <ContentView></ContentView>
       </div>
     );
   }
