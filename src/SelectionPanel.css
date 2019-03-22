@@ -1,6 +1,17 @@
 
-.button-panel {
-  display: flex;	
-  flex-direction: column;
+.div-container {
+  flex: 1;	
+  background-color: blue;
 }
 
+.latest-feed {
+  font-size: 30px;
+}
+
+.videos {
+  font-size: 30px;
+}
+
+.articles {
+  font-size: 30px;
+}
